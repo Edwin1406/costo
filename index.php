@@ -9,8 +9,8 @@ use MVC\Router;
 
 $router = new Router();
 
-echo "<h1>Hola Mundo</h1>";
-// $router->get('/', [InicioController::class, 'index']);
+
+$router->get('/', [InicioController::class, 'index']);
 
 
 
