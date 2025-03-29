@@ -6,10 +6,13 @@ class InicioController
 {
     public static function index()
     {
+        $nombre = 'Javier';
+        $apellido = 'Gonzalez';
+        $titulo = 'Inicio';
         $datos = [
-            'titulo' => 'Inicio',
-            'nombre' => 'Javier',
-            'apellido' => 'Gonzalez'
+            'nombre' => $nombre,
+            'apellido' => $apellido,
+            'titulo' => $titulo
         ];
         echo json_encode($datos);
     }
