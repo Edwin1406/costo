@@ -11,7 +11,7 @@ use MVC\Router;
 $router = new Router();
 
 
-$router->get('/', [LoginController::class, 'index']);
+$router->get('/', [LoginController::class, 'login']);
 
 
 
